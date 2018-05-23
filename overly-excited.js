@@ -6,12 +6,14 @@ let sentence = ["The","walrus","danced","through","the","trees","in","the","ligh
     the array as the sole argument. It should iterate over the array
     and output the words to the browser console.
     */
-   let addExcitement = (theWordArray,bang) => {let buildMeUp = ""
+   let addExcitement = (theWordArray,bang) => {
+       let buildMeUp = ""
         bang;for (let i = 0; i < theWordArray.length; i++){
             buildMeUp += " "+theWordArray[i];
                 if (i % 3 === 2) {
            buildMeUp += bang;
-           bang+= bang;} {console.log(buildMeUp) };
+           bang+= bang;} 
+        console.log(buildMeUp) }};
 
 // function addExcitement (theWordArray,bang) {
 
@@ -36,4 +38,4 @@ let sentence = ["The","walrus","danced","through","the","trees","in","the","ligh
 // Invoke the function and pass in the array
 addExcitement(sentence,"?")
 const betterSentence = ["I","am", "a", "better", "sentence","for", "all", "mankind"];
-addExcitement(betterSentence,"&")
+addExcitement(betterSentence,"&");
